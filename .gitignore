@@ -53,3 +53,5 @@ jspm_packages
 Leiningen.gitignore
 out/
 .repl*/
+
+todo.org
