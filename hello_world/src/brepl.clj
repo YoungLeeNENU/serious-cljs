@@ -4,7 +4,8 @@
 
 (cljs.build.api/build "src" {:main 'hello-world.core
                              :output-to "out/main.js"
-                             :verbose true})
+                             :verbose true
+                             :optimizations :advanced})
 
 (cljs.repl/repl (cljs.repl.browser/repl-env)
                 :watch "src"
