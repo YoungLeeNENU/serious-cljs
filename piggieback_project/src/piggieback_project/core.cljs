@@ -13,7 +13,7 @@
 (.write js/document
         "<p>Hello World!</p>")
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+;; (defn foo
+;;   "I don't do a whole lot."
+;;   [x]
+;;   (println x "Hello, World!"))
