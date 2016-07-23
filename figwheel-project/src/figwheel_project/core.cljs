@@ -1,8 +1,7 @@
 (ns figwheel-project.core)
 
-(js/alert "Hello from Figwheel!")
+(.log js/console "Hello from Figwheel from the console!")
 
-;; (defn foo
-;;   "I don't do a whole lot."
-;;   [x]
-;;   (println x "Hello, World!"))
+(.write js/document "Hello from Figwheel from the age!")
+
+;; (js/alert "Hello from Figwheel!")
